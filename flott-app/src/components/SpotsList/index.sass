@@ -1,0 +1,11 @@
+.results
+    list-style: none
+    @extend %flex-center
+    flex-direction: column
+    .card
+        display: grid
+        grid-template-areas: "image" "tags" "header" "social"
+        width: 75%
+        margin-bottom: 1rem
+        &:not(:last-child)
+            border-bottom: 1px solid #f1f1f1

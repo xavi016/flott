@@ -1,0 +1,78 @@
+.results
+    .card
+        &__image
+            grid-area: image
+            position: relative
+            .img
+                width: 100%
+                height: 180px
+                display: block
+                border-radius: 5px
+                object-fit: cover
+            .more-info
+                position: absolute
+                bottom: 0
+                right: 0
+                padding: .5rem 1rem
+                background-color: #AC42428A
+                color: #fff
+                border-radius: 5px 0 5px 0 
+        &__tags
+            grid-area: tags
+            display: flex
+            color: #ff0000
+            list-style: none
+            padding: .5rem 0
+            font-size: 12px
+            .tags__item:not(:last-child)
+                margin-right: .5rem
+        &__header
+            grid-area: header
+            display: flex
+            align-items: center
+            margin-bottom: .65rem
+            .url-maps
+                font-size: 24px
+                margin-right: .5rem
+        .social
+            grid-area: social
+            display: grid
+            grid-template-areas: "com likes comments"
+            margin-bottom: 1rem
+            &__last-comment
+                grid-area: com
+                display: grid
+                grid-template-areas: "user comment" "date date"
+                gap: .4em
+                font-size: 10px
+                margin-right: .5rem
+                .user-image
+                    grid-area: user
+                    width: 25px
+                    height: 25px
+                    object-fit: cover
+                    border-radius: 50%
+                .user-comment
+                    grid-area: comment
+                .date
+                    grid-area: date
+                    text-align: right
+            &__total-likes
+                grid-area: likes
+                margin-right: .5rem
+                display: flex
+                align-items: flex-end
+                font-size: 10px
+                .fa-heart
+                    margin-right: .2rem
+                    color: red       
+            &__total-comments
+                grid-area: comments
+                margin-right: .5rem
+                display: flex
+                align-items: flex-end
+                font-size: 10px
+                i
+                    margin-right: .2rem
+.fa-heart
+    color: red
