@@ -14,7 +14,7 @@
     "bcryptjs": "^2.4.3",
     "flott-data": "file:../flott-data",
     "jsonwebtoken": "^8.5.1",
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
