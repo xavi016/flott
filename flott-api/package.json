@@ -23,7 +23,7 @@
     "express": "^4.17.1",
     "flott-data": "file:../flott-data",
     "flott-util": "file:../flott-utils",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.7.11"
   },
   "devDependencies": {
